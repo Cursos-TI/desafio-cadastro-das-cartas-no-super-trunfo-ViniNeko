@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+    int main(){
     int Pop1, Tur1, Pop2, Tur2;
     float Area1, PIB1, Area2, PIB2;
         
