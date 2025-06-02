@@ -4,7 +4,6 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main(){
     int Pop1, Tur1, Pop2, Tur2;
