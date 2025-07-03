@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int Pop1, Tur1, Pop2, Tur2;
-    float Area1, PIB1, Area2, PIB2;
-    float Densi1, PIBPC1, Densi2, PIBPC2;
+    int Pop1, Tur1, Pop2, Tur2; // Pop = População da cidade, Tur = Número de pontos turísticos
+    float Area1, PIB1, Area2, PIB2; // Area = Área da cidade 
+    float Densi1, PIBPC1, Densi2, PIBPC2; // Densi = Densidade populacional, PIBPC = PIB per Capita 
         
 printf("Cadastrar duas cartas para o jogo do Super Trunfo. Estas cartas terão temas de cidade. Vamos começar? \n");
 
