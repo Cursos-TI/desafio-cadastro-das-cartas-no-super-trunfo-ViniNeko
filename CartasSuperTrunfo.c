@@ -11,7 +11,7 @@ printf("Cadastrar duas cartas para o jogo do Super Trunfo. Estas cartas terão t
 
 printf("\nPrimeiramente, a carta número 1. \n");
 printf("\nDigite a população da cidade: \n");
-scanf("%u", &Pop1);
+scanf("%lu", &Pop1);
 
 printf("Digite a área da cidade: \n");
 scanf("%f", &Area1);
@@ -27,7 +27,7 @@ PIBPC1 = PIB1 / Pop1;
 
 printf("\nAgora, vamos cadastrar a carta número 2. Tente digitar dados diferentes desta vez. \n");
 printf("\nDigite a população da cidade: \n");
-scanf("%u", &Pop2);
+scanf("%lu", &Pop2);
 
 printf("Digite a área da cidade: \n");
 scanf("%f", &Area2);
@@ -47,13 +47,13 @@ Super1 = Pop1 + Tur1 + Area1 + PIB1 + (1 - Densi1) + PIBPC1;
 Super2 = Pop2 + Tur2 + Area2 + PIB2 + (1 - Densi2) + PIBPC2;
 
 printf("\n ** Carta número 1 **\n");
-printf("População: %u \nÁrea: %f\n", Pop1, Area1);
+printf("População: %lu \nÁrea: %f\n", Pop1, Area1);
 printf("PIB: %f \nNúmero de pontos turísticos: %d \n", PIB1, Tur1);
 printf("Densidade populacional: %f \nPIB per Capita: %f \n", Densi1, PIBPC1);
 printf("Superpoder: %f \n", Super1);
 
 printf("\n ** Carta número 2 **\n");
-printf("População: %u \nÁrea: %f\n", Pop2, Area2);
+printf("População: %lu \nÁrea: %f\n", Pop2, Area2);
 printf("PIB: %f \nNúmero de pontos turísticos: %d \n", PIB2, Tur2);
 printf("Densidade populacional: %f \nPIB per Capita: %f \n", Densi2, PIBPC2);
 printf("Superpoder: %f \n", Super2);
