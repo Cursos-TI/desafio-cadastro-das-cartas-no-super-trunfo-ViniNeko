@@ -69,6 +69,8 @@ printf("Superpoder: %d \n", Super1 > Super2);
 
 printf("\n 1 = Carta 1 venceu, 0 = Carta 2 venceu");
 
+// E é isso
+
 return 0;
 
 }
